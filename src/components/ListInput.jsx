@@ -14,7 +14,7 @@ function ListInput() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3000/itemInserting", property);
+      await axios.post("https://to-do-backend-rp6k.onrender.com/itemInserting", property);
       alert("To-do added successfully!");
       setProperty({ title: "" });
     } catch (error) {
