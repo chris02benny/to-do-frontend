@@ -1,0 +1,16 @@
+.input-div{
+    width: 600px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.input-box{
+    height: 25px;
+    width: 300px;
+}
+
+.add-btn{
+    background-color: blue;
+}
